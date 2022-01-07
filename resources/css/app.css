@@ -1,0 +1,64 @@
+@media print 
+{
+  .table {
+    border: 0.5px solid #000000;
+    }
+    .table-bordered > thead > tr > th,
+    .table-bordered > tbody > tr > th,
+    .table-bordered > tfoot > tr > th,
+    .table-bordered > thead > tr > td,
+    .table-bordered > tbody > tr > td,
+    .table-bordered > tfoot > tr > td {
+    border: 0.5px solid #000000;
+    padding:5px;
+    }
+
+    .infoclient{margin-top:-100px; font-weight: bold;}
+  .font-weight-bolder{font-weight:bolder;}
+  .no-print{
+      display: none;
+  }
+  .bgcol{
+      background-color: #999;
+  }
+  body{
+      padding-top: 1px;
+      background: transparent;
+  }
+    #vert{
+        background-color: #00a69c !important;
+    }
+}
+
+.font-weight-bolder{font-weight:bolder;}
+
+.nomclient{
+    font-size: 15px;
+    font-weight: 500;
+}
+body,table{
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.numerodevis{
+    margin-top:25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#vert{
+    background-color: #5ed2bf !important;
+}
+.nomclient{font-size:25px;
+font-weight: 500;}
+
+.titreags{margin-bottom: -15px;}
+
+
+@media print 
+{
+    .table th {
+    background-color: #00a69c !important;
+    color:white;
+    }
+}
