@@ -52,6 +52,7 @@ class CommercialController extends Controller
        // $factures = Devisfacture::where('facture_ou_devis', 'facture')
         //->get();
 
+        
         return view('pagedevis', compact('clients','deviss','factures'));
     }
 
